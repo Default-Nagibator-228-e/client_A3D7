@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/42865/projects/tanks/clients/fp10/models/BattlefieldShared/trunk/src/alternativa/tanks/sound
+END
+DummySoundManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/42865/projects/tanks/clients/fp10/models/BattlefieldShared/trunk/src/alternativa/tanks/sound/DummySoundManager.as
+END
+SoundManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/42865/projects/tanks/clients/fp10/models/BattlefieldShared/trunk/src/alternativa/tanks/sound/SoundManager.as
+END
+ISoundManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/42865/projects/tanks/clients/fp10/models/BattlefieldShared/trunk/src/alternativa/tanks/sound/ISoundManager.as
+END

@@ -1,0 +1,466 @@
+<config>
+<proplibs>
+<proplib url="resources/library/3rdLibrary/com_build.tara"/>
+<proplib url="resources/library/3rdLibrary/passage.tara"/>
+<proplib url="resources/library/3rdLibrary/defense.tara"/>
+<proplib url="resources/library/3rdLibrary/fence.tara"/>
+<proplib url="resources/library/3rdLibrary/terrain.tara"/>
+<proplib url="resources/library/3rdLibrary/exterior.tara"/>
+<proplib url="resources/library/RegularSummer/builds.tara"/>
+<proplib url="resources/library/RegularSummer/castle.tara"/>
+<proplib url="resources/library/RegularSummer/landscape.tara"/>
+<proplib url="resources/library/v1Summer/buildings_v1.tara"/>
+<proplib url="resources/library/v1Summer/complex_build_v1.tara"/>
+<proplib url="resources/library/v1Summer/elements_v1.tara"/>
+<proplib url="resources/library/v1Summer/land_v1.tara"/>
+<proplib url="resources/library/RegularWinter/builds_winter.tara"/>
+<proplib url="resources/library/RegularWinter/castle_winter.tara"/>
+<proplib url="resources/library/RegularWinter/landscape_winter.tara"/>
+<proplib url="resources/library/v1Winter/buildings_v1_winter.tara"/>
+<proplib url="resources/library/v1Winter/complex_build_v1_winter.tara"/>
+<proplib url="resources/library/v1Winter/elements_v1_winter.tara"/>
+<proplib url="resources/library/v1Winter/land_v1_winter.tara"/>
+<proplib url="resources/library/Server/BridgeParts.tara"/>
+<proplib url="resources/library/Server/BrokenBottom.tara"/>
+<proplib url="resources/library/Server/BrokenRoof.tara"/>
+<proplib url="resources/library/Server/BrokenWalls.tara"/>
+<proplib url="resources/library/Server/Bush.tara"/>
+<proplib url="resources/library/Server/CityBuildings.tara"/>
+<proplib url="resources/library/Server/CityBuilds.tara"/>
+<proplib url="resources/library/Server/Cliffs.tara"/>
+<proplib url="resources/library/Server/ComBuild.tara"/>
+<proplib url="resources/library/Server/ConcreteTiles.tara"/>
+<proplib url="resources/library/Server/ConcreteWalls.tara"/>
+<proplib url="resources/library/Server/Defense.tara"/>
+<proplib url="resources/library/Server/DesertHouses.tara"/>
+<proplib url="resources/library/Server/Exterior.tara"/>
+<proplib url="resources/library/Server/FachwerkHouse1.tara"/>
+<proplib url="resources/library/Server/FachwerkHouse2.tara"/>
+<proplib url="resources/library/Server/Fence.tara"/>
+<proplib url="resources/library/Server/Flags.tara"/>
+<proplib url="resources/library/Server/Fort.tara"/>
+<proplib url="resources/library/Server/GrassTiles.tara"/>
+<proplib url="resources/library/Server/Hangars.tara"/>
+<proplib url="resources/library/Server/HangarT.tara"/>
+<proplib url="resources/library/Server/IndustrialBridge.tara"/>
+<proplib url="resources/library/Server/IndustrialElements.tara"/>
+<proplib url="resources/library/Server/IranKahgel.tara"/>
+<proplib url="resources/library/Server/IranKariz.tara"/>
+<proplib url="resources/library/Server/IranYonje.tara"/>
+<proplib url="resources/library/Server/IranZamin.tara"/>
+<proplib url="resources/library/Server/LandHills.tara"/>
+<proplib url="resources/library/Server/LandRise.tara"/>
+<proplib url="resources/library/Server/LandRocks.tara"/>
+<proplib url="resources/library/Server/LandTiles.tara"/>
+<proplib url="resources/library/Server/Mine.tara"/>
+<proplib url="resources/library/Server/Mishin870.tara"/>
+<proplib url="resources/library/Server/Nubu1.tara"/>
+<proplib url="resources/library/Server/Nubu2.tara"/>
+<proplib url="resources/library/Server/Nubu3.tara"/>
+<proplib url="resources/library/Server/Nubu4.tara"/>
+<proplib url="resources/library/Server/Nubu5.tara"/>
+<proplib url="resources/library/Server/Nubu6.tara"/>
+<proplib url="resources/library/Server/Nubu8.tara"/>
+<proplib url="resources/library/Server/Nubu9.tara"/>
+<proplib url="resources/library/Server/Nubu10.tara"/>
+<proplib url="resources/library/Server/Nubu12.tara"/>
+<proplib url="resources/library/Server/Nubu14.tara"/>
+<proplib url="resources/library/Server/OuterWalls.tara"/>
+<proplib url="resources/library/Server/Passage.tara"/>
+<proplib url="resources/library/Server/Plants.tara"/>
+<proplib url="resources/library/Server/Promotion.tara"/>
+<proplib url="resources/library/Server/RoadBlock.tara"/>
+<proplib url="resources/library/Server/SlopesRises.tara"/>
+<proplib url="resources/library/Server/SmallBridge.tara"/>
+<proplib url="resources/library/Server/Stuffs.tara"/>
+<proplib url="resources/library/Server/Terrain.tara"/>
+<proplib url="resources/library/Server/Trees.tara"/>
+<proplib url="resources/library/Server/VillageBuilds.tara"/>
+<proplib url="resources/library/Server/WaffleFence.tara"/>
+<!--
+ <proplib url="resources/library/CastleWinter.tara"/> 
+-->
+</proplibs>
+<map url="map.xml"/>
+<!-- 	<map url="map_industrial_zone.xml"/>  -->
+<!-- 	<map url="map_novel.xml"/> -->
+<options>
+<tank-explosion>
+<fps>20</fps>
+<offset>100</offset>
+<frame-width>300</frame-width>
+<settings>
+<maxEmitters>5</maxEmitters>
+<coneAngle>60</coneAngle>
+<emitterSpeed>1000</emitterSpeed>
+<emissionPeriod>1000</emissionPeriod>
+<numSprites>15</numSprites>
+<zOffset>100</zOffset>
+<spriteScale>1</spriteScale>
+<spriteFPS>20</spriteFPS>
+<gravity>2000</gravity>
+<timeOffset>0.3</timeOffset>
+<originY>0.8</originY>
+</settings>
+</tank-explosion>
+</options>
+<smoky>
+<animation frameSize="500" animationId="smoky_explosion1"/>
+<animation frameSize="500" animationId="smoky_explosion2"/>
+<animation frameSize="750" animationId="thunder_explosion1"/>
+<animation frameSize="750" animationId="thunder_explosion2"/>
+</smoky>
+<flamethrower>
+<animation frameSize="128" animationId="flame1"/>
+<animation frameSize="128" animationId="flame2"/>
+<animation frameSize="128" animationId="flame3"/>
+</flamethrower>
+<textures baseUrl="data/images/">
+<texture id="skybox_1" url="skybox1/01.jpg"/>
+<texture id="skybox_2" url="skybox1/02.jpg"/>
+<texture id="skybox_3" url="skybox1/03.jpg"/>
+<texture id="skybox_4" url="skybox1/04.jpg"/>
+<texture id="skybox_5" url="skybox1/05.jpg"/>
+<texture id="skybox_6" url="skybox1/06.jpg"/>
+<texture id="red_square" url="red_square.gif"/>
+<texture id="green_square" url="green_square.gif"/>
+<texture id="teal_triangle" url="teal_triangle.gif"/>
+<texture id="active_spawn_marker" url="green_triangle.gif"/>
+<texture id="dm_spawn_marker" url="yellow_marker.gif"/>
+<texture id="red_spawn_marker" url="red_marker.gif"/>
+<texture id="blue_spawn_marker" url="blue_marker.gif"/>
+<texture id="blue_flag" url="blue_flag-2.gif"/>
+<texture id="red_flag" url="red_flag.gif"/>
+<texture id="smoky_muzzle_flash" url="smoky/smoky_shot.png"/>
+<texture id="smoky_explosion1" url="smoky/smoky_explosion1.png"/>
+<texture id="smoky_explosion2" url="smoky/smoky_explosion2.png"/>
+<texture id="flamethrower/flame1" url="flamethrower/fireball1_square.png"/>
+<texture id="flamethrower/flame2" url="flamethrower/fireball2_square.png"/>
+<texture id="flamethrower/flame3" url="flamethrower/fireball3_square.png"/>
+<texture id="thunder_explosion1" url="smoky/thunder_explosion1.png"/>
+<texture id="thunder_explosion2" url="smoky/thunder_explosion2.png"/>
+<texture id="banner1" url="banner1.jpg"/>
+<texture id="banner2" url="banner2.jpg"/>
+<texture id="banner3" url="banner3.jpg"/>
+<texture id="banner4" url="banner4.jpg"/>
+<texture id="billboard" url="billboard.jpg"/>
+<texture id="plasma/muzzle_flash" url="plasma/muzzle_flash.png"/>
+<texture id="plasma/shot" url="plasma/shot.png"/>
+<texture id="plasma/fade" url="plasma/fade.png"/>
+<texture id="plasma/explosion" url="plasma/explosion.png"/>
+<texture id="flamethrower/fireball" url="flamethrower/fireball.png"/>
+<texture id="tank_explosion/shockwave" url="tank_explosion/shock_wave.png"/>
+<texture id="tank_explosion/explosion" url="tank_explosion/explosion.png"/>
+<texture id="tank_explosion/smoke" url="tank_explosion/smoke.png"/>
+<!--
+
+		<texture id="skybox1_up" url="skybox1/up.jpg"/>
+		<texture id="skybox1_down" url="skybox1/down.jpg"/>
+		<texture id="skybox1_left" url="skybox1/left.jpg"/>
+		<texture id="skybox1_right" url="skybox1/right.jpg"/>
+		<texture id="skybox1_front" url="skybox1/front.jpg"/>
+		<texture id="skybox1_back" url="skybox1/back.jpg"/>
+	
+-->
+</textures>
+<textureAnimations>
+<animation id="smoky_explosion1">
+<textureId>smoky_explosion1</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>25</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="smoky_explosion2">
+<textureId>smoky_explosion2</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>0</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="thunder_explosion1">
+<textureId>thunder_explosion1</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>0</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="thunder_explosion2">
+<textureId>thunder_explosion2</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>0</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="flame1">
+<textureId>flamethrower/flame1</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>51</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="flame2">
+<textureId>flamethrower/flame2</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>62</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="flame3">
+<textureId>flamethrower/flame3</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>62</numFrames>
+<fps>30</fps>
+</animation>
+<animation id="tank_explosion/shockwave">
+<textureId>tank_explosion/shockwave</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>16</numFrames>
+<fps>25</fps>
+</animation>
+<animation id="tank_explosion/explosion">
+<textureId>tank_explosion/explosion</textureId>
+<frameWidth>256</frameWidth>
+<frameHeight>256</frameHeight>
+<numFrames>36</numFrames>
+<fps>25</fps>
+</animation>
+<animation id="tank_explosion/smoke">
+<textureId>tank_explosion/smoke</textureId>
+<frameWidth>128</frameWidth>
+<frameHeight>128</frameHeight>
+<numFrames>16</numFrames>
+<fps>25</fps>
+</animation>
+<animation id="plasma/shot">
+<textureId>plasma/shot</textureId>
+<frameWidth>0</frameWidth>
+<frameHeight>0</frameHeight>
+<numFrames>0</numFrames>
+<fps>25</fps>
+</animation>
+<animation id="plasma/explosion">
+<textureId>plasma/explosion</textureId>
+<frameWidth>0</frameWidth>
+<frameHeight>0</frameHeight>
+<numFrames>0</numFrames>
+<fps>25</fps>
+</animation>
+</textureAnimations>
+<hulls path="data/hulls">
+<hull id="Hornet M0" path="hornet/m0">
+<model file="hornet.3ds" lightmap="hornet_m0.jpg" details="hornet_m0.png"/>
+</hull>
+<hull id="Wasp M0" path="wasp/m0">
+<model file="wasp_m0.3ds" lightmap="wasp_m0.jpg" details="wasp_m0.png"/>
+</hull>
+<hull id="Wasp M1" path="wasp/m1">
+<model file="wasp_m0.3ds" lightmap="wasp_m1.jpg" details="wasp_m1.png"/>
+</hull>
+<hull id="Wasp M2" path="wasp/m2">
+<model file="wasp_m0.3ds" lightmap="wasp_m2.jpg" details="wasp_m2.png"/>
+</hull>
+<hull id="Wasp M3" path="wasp/m3">
+<model file="wasp_m0.3ds" lightmap="wasp_m3.jpg" details="wasp_m3.png"/>
+</hull>
+<hull id="Hunter M0" path="hunter/m0">
+<model file="hunter.3ds" lightmap="hunter_m0.jpg" details="hunter_m0.png"/>
+</hull>
+<hull id="Hunter M1" path="hunter/m1">
+<model file="hunter.3ds" lightmap="hunter_m1.jpg" details="hunter_m1.png"/>
+</hull>
+<hull id="Hunter M2" path="hunter/m2">
+<model file="hunter.3ds" lightmap="hunter_m2.jpg" details="hunter_m2.png"/>
+</hull>
+<hull id="Hunter M3" path="hunter/m3">
+<model file="hunter.3ds" lightmap="hunter_m3.jpg" details="hunter_m3.png"/>
+</hull>
+<hull id="Titan M0" path="titan/m0">
+<model file="titan.3ds" lightmap="titan_m0.jpg" details="titan_m0.png"/>
+</hull>
+<hull id="Titan M1" path="titan/m1">
+<model file="titan.3ds" lightmap="titan_m1.jpg" details="titan_m1.png"/>
+</hull>
+<hull id="Titan M2" path="titan/m2">
+<model file="titan.3ds" lightmap="titan_m2.jpg" details="titan_m2.png"/>
+</hull>
+<hull id="Titan M3" path="titan/m3">
+<model file="titan.3ds" lightmap="titan_m3.jpg" details="titan_m3.png"/>
+</hull>
+<hull id="Dictator M0" path="dictator/m0">
+<model file="dictator.3ds" lightmap="dictator_m0.jpg" details="dictator_m0.png"/>
+</hull>
+<hull id="Dictator M1" path="dictator/m1">
+<model file="dictator.3ds" lightmap="dictator_m1.jpg" details="dictator_m1.png"/>
+</hull>
+<hull id="Dictator M2" path="dictator/m2">
+<model file="dictator.3ds" lightmap="dictator_m2.jpg" details="dictator_m2.png"/>
+</hull>
+<hull id="Dictator M3" path="dictator/m3">
+<model file="dictator_m3.3ds" lightmap="dictator_m3.jpg" details="dictator_m3.png"/>
+</hull>
+<hull id="Hornet M1" path="hornet/m1">
+<model file="hornet.3ds" lightmap="hornet_m1.jpg" details="hornet_m1.png"/>
+</hull>
+<hull id="Hornet M2" path="hornet/m2">
+<model file="hornet.3ds" lightmap="hornet_m2.jpg" details="hornet_m2.png"/>
+</hull>
+<hull id="Hornet M3" path="hornet/m3">
+<model file="hornet.3ds" lightmap="hornet_m3.jpg" details="hornet_m3.png"/>
+</hull>
+<hull id="Viking M0" path="viking/m0">
+<model file="viking.3ds" lightmap="viking_m0.jpg" details="viking_m0.png"/>
+</hull>
+<hull id="Viking M1" path="viking/m1">
+<model file="viking.3ds" lightmap="viking_m1.jpg" details="viking_m1.png"/>
+</hull>
+<hull id="Viking M2" path="viking/m2">
+<model file="viking.3ds" lightmap="viking_m2.jpg" details="viking_m2.png"/>
+</hull>
+<hull id="Viking M3" path="viking/m3">
+<model file="viking.3ds" lightmap="viking_m3.jpg" details="viking_m3.png"/>
+</hull>
+<hull id="Mammoth M0" path="mammoth/m0">
+<model file="mammoth.3ds" lightmap="mammoth_m0.jpg" details="mammoth_m0.png"/>
+</hull>
+<hull id="Mammoth M1" path="mammoth/m1">
+<model file="mammoth.3ds" lightmap="mammoth_m1.jpg" details="mammoth_m1.png"/>
+</hull>
+<hull id="Mammoth M2" path="mammoth/m2">
+<model file="mammoth.3ds" lightmap="mammoth_m2.jpg" details="mammoth_m2.png"/>
+</hull>
+<hull id="Mammoth M3" path="mammoth/m3">
+<model file="mammoth.3ds" lightmap="mammoth_m3.jpg" details="mammoth_m3.png"/>
+</hull>
+</hulls>
+<turrets path="data/turrets">
+<turret id="Smoky M0" path="smoky/m0">
+<model file="smoky_m01.3ds" lightmap="smoky_m0.jpg" details="smoky_m0.png"/>
+</turret>
+<turret id="Smoky M1" path="smoky/m1">
+<model file="smoky_m01.3ds" lightmap="smoky_m1.jpg" details="smoky_m1.png"/>
+</turret>
+<turret id="Smoky M2" path="smoky/m2">
+<model file="smoky_m23.3ds" lightmap="smoky_m2.jpg" details="smoky_m2.png"/>
+</turret>
+<turret id="Smoky M3" path="smoky/m3">
+<model file="smoky_m23.3ds" lightmap="smoky_m3.jpg" details="smoky_m3.png"/>
+</turret>
+<turret id="FireBird M0" path="firebird/m0">
+<model file="firebird_m012.3ds" lightmap="fireBird_m0.jpg" details="fireBird_m0.png"/>
+</turret>
+<turret id="FireBird M1" path="firebird/m1">
+<model file="firebird_m012.3ds" lightmap="fireBird_m1.jpg" details="fireBird_m1.png"/>
+</turret>
+<turret id="FireBird M2" path="firebird/m2">
+<model file="firebird_m012.3ds" lightmap="fireBird_m2.jpg" details="fireBird_m2.png"/>
+</turret>
+<turret id="FireBird M3" path="firebird/m3">
+<model file="firebird_m3.3ds" lightmap="fireBird_m3.jpg" details="fireBird_m3.png"/>
+</turret>
+<turret id="Twins M0" path="twins/m0">
+<model file="twins.3ds" lightmap="twins_m0.jpg" details="twins_m0.png"/>
+</turret>
+<turret id="Twins M1" path="twins/m1">
+<model file="twins.3ds" lightmap="twins_m1.jpg" details="twins_m1.png"/>
+</turret>
+<turret id="Twins M2" path="twins/m2">
+<model file="twins_m2.3ds" lightmap="twins_m2.jpg" details="twins_m2.png"/>
+</turret>
+<turret id="Twins M3" path="twins/m3">
+<model file="twins_m3.3ds" lightmap="twins_m3.jpg" details="twins_m3.png"/>
+</turret>
+<turret id="Railgun M0" path="railgun/m0">
+<model file="railgun_m012.3ds" lightmap="railgun_m0.jpg" details="railgun_m0.png"/>
+</turret>
+<turret id="Railgun M1" path="railgun/m1">
+<model file="railgun_m012.3ds" lightmap="railgun_m1.jpg" details="railgun_m1.png"/>
+</turret>
+<turret id="Railgun M2" path="railgun/m2">
+<model file="railgun_m012.3ds" lightmap="railgun_m2.jpg" details="railgun_m2.png"/>
+</turret>
+<turret id="Railgun M3" path="railgun/m3">
+<model file="railgun_m3.3ds" lightmap="railgun_m3.jpg" details="railgun_m3.png"/>
+</turret>
+<turret id="Thunder M0" path="thunder/m0">
+<model file="thunder_m0123.3ds" lightmap="thunder_m0.jpg" details="thunder_m0.png"/>
+</turret>
+<turret id="Thunder M1" path="thunder/m1">
+<model file="thunder_m0123.3ds" lightmap="thunder_m1.jpg" details="thunder_m1.png"/>
+</turret>
+<turret id="Thunder M2" path="thunder/m2">
+<model file="thunder_m0123.3ds" lightmap="thunder_m2.jpg" details="thunder_m2.png"/>
+</turret>
+<turret id="Thunder M3" path="thunder/m3">
+<model file="thunder_m0123.3ds" lightmap="thunder_m3.jpg" details="thunder_m3.png"/>
+</turret>
+<turret id="Isida M0" path="isida/m0">
+<model file="isida_m0123.3ds" lightmap="isida_m0.jpg" details="isida_m0.png"/>
+</turret>
+<turret id="Isida M1" path="isida/m1">
+<model file="isida_m0123.3ds" lightmap="isida_m1.jpg" details="isida_m1.png"/>
+</turret>
+<turret id="Isida M2" path="isida/m2">
+<model file="isida_m0123.3ds" lightmap="isida_m2.jpg" details="isida_m2.png"/>
+</turret>
+<turret id="Isida M3" path="isida/m3">
+<model file="isida_m0123.3ds" lightmap="isida_m3.jpg" details="isida_m3.png"/>
+</turret>
+<turret id="Freeze M0" path="freeze/m0">
+<model file="freeze.3ds" lightmap="freeze_m0.jpg" details="freeze_m0.png"/>
+</turret>
+<turret id="Freeze M1" path="freeze/m1">
+<model file="freeze.3ds" lightmap="freeze_m1.jpg" details="freeze_m1.png"/>
+</turret>
+<turret id="Freeze M2" path="freeze/m2">
+<model file="freeze.3ds" lightmap="freeze_m2.jpg" details="freeze_m2.png"/>
+</turret>
+<turret id="Freeze M3" path="freeze/m3">
+<model file="freeze.3ds" lightmap="freeze_m3.jpg" details="freeze_m3.png"/>
+</turret>
+<turret id="Ricochet M0" path="ricochet/m0">
+<model file="ricochet.3ds" lightmap="ricochet_m0.jpg" details="ricochet_m0.png"/>
+</turret>
+<turret id="Ricochet M1" path="ricochet/m1">
+<model file="ricochet.3ds" lightmap="ricochet_m1.jpg" details="ricochet_m1.png"/>
+</turret>
+<turret id="Ricochet M2" path="ricochet/m2">
+<model file="ricochet.3ds" lightmap="ricochet_m2.jpg" details="ricochet_m2.png"/>
+</turret>
+<turret id="Ricochet M3" path="ricochet/m3">
+<model file="ricochet.3ds" lightmap="ricochet_m3.jpg" details="ricochet_m3.png"/>
+</turret>
+<turret id="Shaft M0" path="shaft/m0">
+<model file="shaft.3ds" lightmap="shaft_m0.jpg" details="shaft_m0.png"/>
+</turret>
+<turret id="Shaft M1" path="shaft/m1">
+<model file="shaft.3ds" lightmap="shaft_m1.jpg" details="shaft_m1.png"/>
+</turret>
+<turret id="Shaft M2" path="shaft/m2">
+<model file="shaft.3ds" lightmap="shaft_m2.jpg" details="shaft_m2.png"/>
+</turret>
+<turret id="Shaft M3" path="shaft/m3">
+<model file="shaft.3ds" lightmap="shaft_m3.jpg" details="shaft_m3.png"/>
+</turret>
+</turrets>
+<colormaps path="data/colormaps">
+<colormap id="1" file="colormap_1.jpg"/>
+<colormap id="2" file="colormap_01.jpg"/>
+<colormap id="3" file="colormap_2.jpg"/>
+<colormap id="4" file="colormap_02.jpg"/>
+<colormap id="5" file="colormap_3.jpg"/>
+<colormap id="6" file="colormap_03.jpg"/>
+<colormap id="7" file="colormap_4.jpg"/>
+<colormap id="8" file="colormap_04.jpg"/>
+<colormap id="9" file="colormap_5.jpg"/>
+<colormap id="10" file="colormap_05.jpg"/>
+<colormap id="11" file="colormap_6.jpg"/>
+<colormap id="12" file="colormap_06.jpg"/>
+<colormap id="13" file="colormap_49.jpg"/>
+<colormap id="14" file="colormap_11.jpg"/>
+<colormap id="15" file="colormap_24.jpg"/>
+<colormap id="16" file="colormap_43.jpg"/>
+</colormaps>
+</config>

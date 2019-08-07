@@ -1,0 +1,94 @@
+8
+
+dir
+46043
+http://svndev.alternativaplatform.com/platform/clients/fp10/libraries/AlternativaClient/branches/2.0.19/src/alternativa/debug
+http://svndev.alternativaplatform.com
+
+
+
+2010-09-09T06:43:45.274754Z
+41095
+mike
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d9e2387a-1f3e-40e2-b57f-9df5970a2fa5
+
+ErrorWindow.as
+file
+
+
+
+
+2010-10-28T04:31:28.000000Z
+1f5e1e19c28b6ef2827accd395fe6532
+2010-07-13T10:54:11.586783Z
+37237
+mike
+
+dump
+dir
+
+images
+dir
+
+ServerMessageWindow.as
+file
+
+
+
+
+2010-10-28T04:31:28.000000Z
+66ffac81a3d7513b22b8b5e99a65e7ff
+2010-07-13T10:54:11.586783Z
+37237
+mike
+
+Debug.as
+file
+
+
+
+
+2010-10-28T04:31:28.000000Z
+feee9ddb096da2f610172109bed2f284
+2010-07-13T10:54:11.586783Z
+37237
+mike
+
+IDebugCommandProvider.as
+file
+
+
+
+
+2010-10-28T04:31:28.000000Z
+ad94e6c48151c96bea8758d7ecef11d5
+2010-02-02T12:51:11.938943Z
+27587
+kviring
+
+IDebugCommandHandler.as
+file
+
+
+
+
+2010-10-28T04:31:29.000000Z
+9e9098e861671d450d11450418793fa9
+2009-01-15T10:42:39.688596Z
+6160
+bragin
+

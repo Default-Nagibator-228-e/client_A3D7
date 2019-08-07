@@ -1,0 +1,462 @@
+{
+    "id":"MODELS",
+	
+	"items": [
+	  
+	  {
+		"name": "flagBlueModel_pedestal",
+		"src": "ctf/pedestal/blue_pedestal/flag_stand_blue.3ds"
+	  },
+	  {
+		"name": "flagRedModel_pedestal",
+		"src": "ctf/pedestal/red_pedestal/flag_stand_red.3ds"
+	  },
+	  {
+		"name": "garage_box_model",
+		"src": "garage/garage.3ds"
+	  },
+	  {
+		"name": "viking_m0",
+		"src": "hull/viking/m0/hull.3ds"
+	  },
+	  {
+		"name": "viking_m1",
+		"src": "hull/viking/m1/hull.3ds"
+	  },
+	  {
+		"name": "viking_m2",
+		"src": "hull/viking/m2/hull.3ds"
+	  },
+	  {
+		"name": "viking_m3",
+		"src": "hull/viking/m3/hull.3ds"
+	  },
+	  {
+		"name": "viking_XT",
+		"src": "hull/viking/XT/hull.3ds"
+	  },
+	  {
+		"name": "thunder_m0",
+		"src": "turret/thunder/m0/turret.3ds"
+	  },
+	  {
+		"name": "thunder_m1",
+		"src": "turret/thunder/m1/turret.3ds"
+	  },
+	  {
+		"name": "thunder_m2",
+		"src": "turret/thunder/m2/turret.3ds"
+	  },
+	  {
+		"name": "thunder_m3",
+		"src": "turret/thunder/m3/turret.3ds"
+	  },
+	  {
+		"name": "thunder_XT",
+		"src": "turret/thunder/XT/turret.3ds"
+	  },
+	  {
+		"name": "frezee_m0",
+		"src": "turret/frezee/m0/turret.3ds"
+	  },
+	  {
+		"name": "frezee_m1",
+		"src": "turret/frezee/m1/turret.3ds"
+	  },
+	  {
+		"name": "frezee_m2",
+		"src": "turret/frezee/m2/turret.3ds"
+	  },
+	  {
+		"name": "frezee_m3",
+		"src": "turret/frezee/m3/turret.3ds"
+	  },
+	  {
+		"name": "frezee_XT",
+		"src": "turret/frezee/XT/turret.3ds"
+	  },
+	  {
+		"name": "smoky_m0",
+		"src": "turret/smoky/m0/turret.3ds"
+	  },
+	  {
+		"name": "smoky_m1",
+		"src": "turret/smoky/m1/turret.3ds"
+	  },
+	  {
+		"name": "smoky_m2",
+		"src": "turret/smoky/m2/turret.3ds"
+	  },
+	  {
+		"name": "smoky_m3",
+		"src": "turret/smoky/m3/turret.3ds"
+	  },
+	  {
+		"name": "smoky_XT",
+		"src": "turret/smoky/XT/turret.3ds"
+	  },
+	  {
+		"name": "twins_m0",
+		"src": "turret/twins/m0/turret.3ds"
+	  },
+	  {
+		"name": "twins_m1",
+		"src": "turret/twins/m1/turret.3ds"
+	  },
+	  {
+		"name": "twins_m2",
+		"src": "turret/twins/m2/turret.3ds"
+	  },
+	  {
+		"name": "twins_m3",
+		"src": "turret/twins/m3/turret.3ds"
+	  },
+	  {
+		"name": "twins_XT",
+		"src": "turret/twins/XT/turret.3ds"
+	  },
+	  {
+		"name": "flamethrower_m0",
+		"src": "turret/flamethrower/m0/turret.3ds"
+	  },
+	  {
+		"name": "flamethrower_m1",
+		"src": "turret/flamethrower/m1/turret.3ds"
+	  },
+	  {
+		"name": "flamethrower_m2",
+		"src": "turret/flamethrower/m2/turret.3ds"
+	  },
+	  {
+		"name": "flamethrower_m3",
+		"src": "turret/flamethrower/m3/turret.3ds?v2"
+	  },
+	  {
+		"name": "flamethrower_XT",
+		"src": "turret/flamethrower/XT/turret.3ds?v2"
+	  },
+	  {
+		"name": "isida_m0",
+		"src": "turret/isida/m0/turret.3ds"
+	  },
+	  {
+		"name": "isida_m1",
+		"src": "turret/isida/m1/turret.3ds"
+	  },
+	  {
+		"name": "isida_m2",
+		"src": "turret/isida/m2/turret.3ds"
+	  },
+	  {
+		"name": "isida_m3",
+		"src": "turret/isida/m3/turret.3ds"
+	  },
+	  {
+		"name": "isida_XT",
+		"src": "turret/isida/XT/turret.3ds"
+	  },
+	  {
+		"name": "ricochet_m0",
+		"src": "turret/ricochet/m0/turret.3ds"
+	  },
+	  {
+		"name": "ricochet_m1",
+		"src": "turret/ricochet/m1/turret.3ds"
+	  },
+	  {
+		"name": "ricochet_m2",
+		"src": "turret/ricochet/m2/turret.3ds"
+	  },
+	  {
+		"name": "ricochet_m3",
+		"src": "turret/ricochet/m3/turret.3ds"
+	  },
+	  {
+		"name": "ricochet_XT",
+		"src": "turret/ricochet/XT/turret.3ds"
+	  },
+	  {
+		"name": "railgun_m0",
+		"src": "turret/railgun/m0/turret.3ds"
+	  },
+	  {
+		"name": "railgun_m1",
+		"src": "turret/railgun/m1/turret.3ds"
+	  },
+	  {
+		"name": "railgun_m2",
+		"src": "turret/railgun/m2/turret.3ds"
+	  },
+	  {
+		"name": "railgun_m3",
+		"src": "turret/railgun/m3/turret.3ds"
+	  },
+	  {
+		"name": "railgun_XT",
+		"src": "turret/railgun/XT/turret.3ds"
+	  },
+	  {
+		"name": "hammer_m0",
+		"src": "turret/hammer/m0/turret.3ds"
+	  },
+	  {
+		"name": "hammer_m1",
+		"src": "turret/hammer/m1/turret.3ds"
+	  },
+	  {
+		"name": "hammer_m2",
+		"src": "turret/hammer/m2/turret.3ds"
+	  },
+	  {
+		"name": "hammer_m3",
+		"src": "turret/hammer/m3/turret.3ds"
+	  },
+	  {
+		"name": "vulcan_m0",
+		"src": "turret/vulcan/m0/turret.3ds"
+	  },
+	  {
+		"name": "vulcan_m1",
+		"src": "turret/vulcan/m1/turret.3ds"
+	  },
+	  {
+		"name": "vulcan_m2",
+		"src": "turret/vulcan/m2/turret.3ds"
+	  },
+	  {
+		"name": "vulcan_m3",
+		"src": "turret/vulcan/m3/turret.3ds"
+	  },
+	  {
+		"name": "shaft_m0",
+		"src": "turret/shaft/m0/turret.3ds"
+	  },
+	  {
+		"name": "shaft_m1",
+		"src": "turret/shaft/m1/turret.3ds"
+	  },
+	  {
+		"name": "shaft_m2",
+		"src": "turret/shaft/m2/turret.3ds"
+	  },
+	  {
+		"name": "shaft_m3",
+		"src": "turret/shaft/m3/turret.3ds"
+	  },
+	  {
+		"name": "shaft_XT",
+		"src": "turret/shaft/XT/turret.3ds"
+	  },
+	  {
+		"name": "аnnihil_m0",
+		"src": "turret/аnnihil/m0/turret.3ds"
+	  },
+	   {
+		"name": "аnnihil_m1",
+		"src": "turret/аnnihil/m0/turret.3ds"
+	  },
+	   {
+		"name": "аnnihil_m2",
+		"src": "turret/аnnihil/m0/turret.3ds"
+	  },
+	   {
+		"name": "аnnihil_m3",
+		"src": "turret/аnnihil/m0/turret.3ds"
+	  },
+	  {
+		"name": "terminate_m0",
+		"src": "hull/terminate/m0/hull.3ds"
+	  },
+	  {
+		"name": "terminate_m1",
+		"src": "hull/terminate/m0/hull.3ds"
+	  },
+	  {
+		"name": "terminate_m2",
+		"src": "hull/terminate/m0/hull.3ds"
+	  },
+	  {
+		"name": "terminate_m3",
+		"src": "hull/terminate/m0/hull.3ds"
+	  },
+	  {
+		"name": "wasp_m0",
+		"src": "hull/wasp/m0/hull.3ds"
+	  },
+	  {
+		"name": "wasp_m1",
+		"src": "hull/wasp/m1/hull.3ds"
+	  },
+	  {
+		"name": "wasp_m2",
+		"src": "hull/wasp/m2/hull.3ds"
+	  },
+	  {
+		"name": "wasp_m3",
+		"src": "hull/wasp/m3/hull.3ds"
+	  },
+	  {
+		"name": "wasp_XT",
+		"src": "hull/wasp/XT/hull.3ds"
+	  },
+	  {
+		"name": "hunter_m0",
+		"src": "hull/hunter/m0/hull.3ds"
+	  },
+	  {
+		"name": "hunter_m1",
+		"src": "hull/hunter/m1/hull.3ds"
+	  },
+	  {
+		"name": "hunter_m2",
+		"src": "hull/hunter/m2/hull.3ds"
+	  },
+	  {
+		"name": "hunter_m3",
+		"src": "hull/hunter/m3/hull.3ds"
+	  },
+	  {
+		"name": "hunter_XT",
+		"src": "hull/hunter/XT/hull.3ds"
+	  },
+	  {
+		"name": "titan_m0",
+		"src": "hull/titan/m0/hull.3ds"
+	  },
+	  {
+		"name": "titan_m1",
+		"src": "hull/titan/m1/hull.3ds"
+	  },
+	  {
+		"name": "titan_m2",
+		"src": "hull/titan/m2/hull.3ds"
+	  },
+	  {
+		"name": "titan_m3",
+		"src": "hull/titan/m3/hull.3ds"
+	  },
+	  {
+		"name": "titan_XT",
+		"src": "hull/titan/XT/hull.3ds"
+	  },
+	  {
+		"name": "dictator_m0",
+		"src": "hull/dictator/m0/hull.3ds"
+	  },
+	  {
+		"name": "dictator_m1",
+		"src": "hull/dictator/m1/hull.3ds"
+	  },
+	  {
+		"name": "dictator_m2",
+		"src": "hull/dictator/m2/hull.3ds"
+	  },
+	  {
+		"name": "dictator_m3",
+		"src": "hull/dictator/m3/hull.3ds"
+	  },
+	  {
+		"name": "dictator_XT",
+		"src": "hull/dictator/XT/hull.3ds"
+	  },
+	  {
+		"name": "hornet_m0",
+		"src": "hull/hornet/m0/hull.3ds"
+	  },
+	  {
+		"name": "hornet_m1",
+		"src": "hull/hornet/m1/hull.3ds"
+	  },
+	  {
+		"name": "hornet_m2",
+		"src": "hull/hornet/m2/hull.3ds"
+	  },
+	  {
+		"name": "hornet_m3",
+		"src": "hull/hornet/m3/hull.3ds"
+	  },
+	  {
+		"name": "hornet_XT",
+		"src": "hull/hornet/XT/hull.3ds"
+	  },
+	  {
+		"name": "mamont_m0",
+		"src": "hull/mamont/m0/hull.3ds"
+	  },
+	  {
+		"name": "mamont_m1",
+		"src": "hull/mamont/m1/hull.3ds"
+	  },
+	  {
+		"name": "mamont_m2",
+		"src": "hull/mamont/m2/hull.3ds"
+	  },
+	  {
+		"name": "mamont_m3",
+		"src": "hull/mamont/m3/hull.3ds"
+	  },
+	  {
+		"name": "mamont_XT",
+		"src": "hull/mamont/XT/hull.3ds"
+	  },
+	  {
+		"name": "bonus_box_CRYSTALL",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_CRYSTALL5",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_CRYSTALL10",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_CRYSTALL20",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_CRYSTALL50",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_CRYSTALL100",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_GOLD",
+		"src": "bonus/boxes/gold/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_DAMAGE",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "bonus_box_HEALTH",
+		"src": "bonus/box.3ds"
+	  },
+	  
+	  {
+		"name": "bonus_box_ARMOR",
+		"src": "bonus/box.3ds"
+	  }
+	  ,
+	  {
+		"name": "bonus_box_NITRO",
+		"src": "bonus/box.3ds"
+	  },
+	  {
+		"name": "parachute",
+		"src": "bonus/parachute1/parachute.3ds"
+	  },
+	  {
+		"name": "parachute_inner",
+		"src": "bonus/parachute1_inner/parachute_inner.3ds"
+	  },
+	  {
+		"name": "modelId_mine",
+		"src": "mines/model/mine.3ds"
+	  }
+	  
+	]
+}

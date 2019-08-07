@@ -1,0 +1,125 @@
+<html lang="ru">
+<head>
+<link rel="icon" type="image/ico" href="favicon.ico"/>
+	<meta charset="utf-8"/>
+	<title>Legend Tanks</title>
+	<meta name="description" content="Эта игрушка на стадии закрытого бэта тестирования" />
+	<link href="js/css/toembedswf.css" rel="stylesheet" type="text/css">
+    <script src="js/common.js"></script>
+	<script src="js/sdk.js"></script>
+    <script src="js/swfobject.js"></script>
+    <script src="js/nodes.js"></script>
+    <script src="js/toembedswfHTMLversion.js"></script>
+    <script>
+			window.addEventListener('load', function(){
+  				'use strict';
+
+  			var el = document.querySelector('.ModalOpen');
+
+  			setTimeout(function(){
+				if(el != null)
+				{el.click();}
+ 			 }, 2000);
+			});
+    </script>
+	<script>
+		var url = "Preloader.swf?locale=ru&rand="+Math.random();
+		
+		var flashvars = {
+		};
+		var params = {
+			menu: "true",
+			scale: "noScale",
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			bgcolor: "",
+			wmode: "direct"
+		};
+		var attributes = {
+			id:"rohn"
+		};
+		swfobject.embedSWF(
+			url,
+			"altContent", "100%", "100%", "9.0.0", 
+			"expressInstall.swf", 
+			flashvars, params, attributes);
+	</script>
+	<style>
+   body {margin: 0; padding:0; border:0; overflow: hidden;}
+  </style>
+	<style type="text/css" media="screen">
+	/*<![CDATA[*/
+* {
+	padding:0ox;
+	margin:0px;
+}
+
+html, body {
+	height: 100%;
+}
+body {
+    text-align: left;
+    background-color: #000;
+    position: relative;
+    background-image: url(img/bg.png);
+    height: 100%;
+    overflow-x: none;
+    background-position: top center;
+    background-repeat: no-repeat, repeat;
+}
+a {
+	color: #fff;
+}
+#altContent {
+	top: auto;
+	text-align: center;
+    min-width: 1000px;
+    min-height: 600px;
+	font-family: Exo2;
+}
+#altContent p {
+	padding-left:120px;
+	padding-top:10px;
+	font-family: Exo2;
+}
+#logo_start {
+    height: 80px;
+    padding-top: 50px;
+}
+}
+
+/*]]>*/
+</style>
+<object id = "swf1" classid = "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" align="middle">
+    <script type="text/javascript">
+       document.ondragstart = noselect; 
+    // запрет на перетаскивание 
+      document.onselectstart = noselect; 
+    // запрет на выделение элементов страницы 
+       document.oncontextmenu = noselect; 
+    // запрет на выведение контекстного меню 
+      function noselect() {return false;} 
+    </script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type="text/javascript">
+$(window).ready(function(){
+        /* немного другой эффект появления, и задержка в 2 секунды */
+	setTimeout ("$('.arrow_left').fadeIn('slow')",2000);
+});
+</script>
+</head>
+<body>
+	<div id="altContent">
+		<div id="tonoflash" style="z-index: 1010;">
+			<div>
+					<img oncontextmenu="return false;" id="logo_start_area" src="img/area_ru.png">
+				<a class="ModalOpen" href="http://www.adobe.com/go/getflashplayer">
+					<img oncontextmenu="return false;" id="ModalOpen" class="logo_start_btn btn1" src="img/button_ru.png">
+				</a>
+				<div class="arrow_left"><img src="img/arrow_left_ru.png"></div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
